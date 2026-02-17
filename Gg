@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>BlockVerse - Roblox Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎮 BlockVerse 🎮</h1>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#">الألعاب</a>
+      <a href="#">الأكواد</a>
+      <a href="#">الأخبار</a>
+      <a href="#">منتدى</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="games">
+      <h2>أشهر الألعاب</h2>
+      <div class="game">
+        <h3>Brookhaven 🏡</h3>
+        <img src="brookhaven.jpg" alt="Brookhaven">
+        <p>لعبة حياة واقعية ممتعة.</p>
+      </div>
+      <div class="game">
+        <h3>Adopt Me 🐶</h3>
+        <img src="adoptme.jpg" alt="Adopt Me">
+        <p>قم بتربية الحيوانات وتبادلها مع الأصدقاء.</p>
+      </div>
+    </section>
+
+    <section class="codes">
+      <h2>أكواد Roblox</h2>
+      <p>أدخل أحدث الأكواد هنا للحصول على هدايا داخل اللعبة.</p>
+    </section>
+
+    <section class="news">
+      <h2>آخر الأخبار</h2>
+      <p>تحديثات Roblox، فعاليات جديدة، مسابقات اللاعبين.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 BlockVerse - جميع الحقوق محفوظة</p>
+  </footer>
+</body>
+</html>
+body {
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: Tahoma;
+  margin: 0;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 36px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px;
+  margin: 20px;
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+.game {
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.game img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
